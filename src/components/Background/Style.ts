@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url(${process.env.PUBLIC_URL}/img/background.svg);
+	background-image: url("/img/background.svg");
 	background-size: cover;
 	background-position: center;
 	min-width: 500px;
@@ -37,7 +37,7 @@ export const ContentWrapper = styled.div`
 
 export const HomeImg = styled.div<{ $home: string }>`
 	cursor: pointer;
-	background-image: url(${process.env.PUBLIC_URL}/img/home.svg);
+	background-image: url("/img/home.svg");
 	position: absolute;
 	left: 4.2rem;
 	top: 4.2rem;
