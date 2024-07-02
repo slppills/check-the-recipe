@@ -6,7 +6,7 @@ import GlobalStyle from "./GlobalStyle";
 
 function App() {
 	return (
-		<BrowserRouter basename="https://slppills.github.io/check-the-recipe">
+		<BrowserRouter basename="/check-the-recipe">
 			<Router />
 			<GlobalStyle></GlobalStyle>
 		</BrowserRouter>
