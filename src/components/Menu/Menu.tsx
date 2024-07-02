@@ -100,42 +100,42 @@ const Menu = () => {
 							onClick={() => navigate(`/${menuType}/stir-fry`)}
 							display={countMenu.stir_fry > 0 ? "flex" : "none"}
 						>
-							<S.MenuImg $url="/img/stir-fry.svg" />
+							<S.MenuImg $url="/check-the-recipe/img/stir-fry.svg" />
 							<span>볶기</span>
 						</S.SelectMenu>
 						<S.SelectMenu
 							onClick={() => navigate(`/${menuType}/boil`)}
 							display={countMenu.boil > 0 ? "flex" : "none"}
 						>
-							<S.MenuImg $url="/img/boil.svg" />
+							<S.MenuImg $url="/check-the-recipe/img/boil.svg" />
 							<span>끓이기</span>
 						</S.SelectMenu>
 						<S.SelectMenu
 							onClick={() => navigate(`/${menuType}/bake`)}
 							display={countMenu.bake > 0 ? "flex" : "none"}
 						>
-							<S.MenuImg $url="/img/bake.svg" />
+							<S.MenuImg $url="/check-the-recipe/img/bake.svg" />
 							<span>굽기</span>
 						</S.SelectMenu>
 						<S.SelectMenu
 							onClick={() => navigate(`/${menuType}/fry`)}
 							display={countMenu.fry > 0 ? "flex" : "none"}
 						>
-							<S.MenuImg $url="/img/fry.svg" />
+							<S.MenuImg $url="/check-the-recipe/img/fry.svg" />
 							<span>튀기기</span>
 						</S.SelectMenu>
 						<S.SelectMenu
 							onClick={() => navigate(`/${menuType}/steam`)}
 							display={countMenu.steam > 0 ? "flex" : "none"}
 						>
-							<S.MenuImg $url="/img/steam.svg" />
+							<S.MenuImg $url="/check-the-recipe/img/steam.svg" />
 							<span>찌기</span>
 						</S.SelectMenu>
 						<S.SelectMenu
 							onClick={() => navigate(`/${menuType}/etc`)}
 							display={countMenu.etc > 0 ? "flex" : "none"}
 						>
-							<S.MenuImg $url="/img/guitar.svg" />
+							<S.MenuImg $url="/check-the-recipe/img/guitar.svg" />
 							<span>기타</span>
 						</S.SelectMenu>
 					</S.MenuContainer>
