@@ -15,7 +15,12 @@ const Background = ({ children }: BackgroundProps) => {
 			<S.Wrapper>
 				<S.ContentBackground>
 					<S.HomeImg
-						$home={location.pathname === "/" ? "hidden" : "visible"}
+						$home={
+							location.pathname ===
+							"https://slppills.github.io/check-the-recipe/"
+								? "hidden"
+								: "visible"
+						}
 						onClick={() => navigate("/")}
 					/>
 					<S.ContentWrapper>{children}</S.ContentWrapper>
