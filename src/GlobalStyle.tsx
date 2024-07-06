@@ -9,12 +9,21 @@ const GlobalStyle = createGlobalStyle`
     @media screen and (max-width: 2100px) {
         font-size: 14px;
 	}
+    @media screen and (max-width: 1875px) {
+        font-size: 13px;
+	}
     @media screen and (max-width: 1650px) {
         font-size: 12px;
+	}
+    @media screen and (max-width: 1425px) {
+        font-size: 11px;
 	}
     @media screen and (max-width: 1200px) {
         font-size: 10px;
     }
+    @media screen and (max-width: 975px) {
+        font-size: 9px;
+	}
     @media screen and (max-width: 750px) {
         font-size: 8px;
     }
