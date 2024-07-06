@@ -6,26 +6,33 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'TTLaundryGothicB';
+    
     @media screen and (max-width: 2100px) {
         font-size: 14px;
 	}
-    @media screen and (max-width: 1875px) {
+    @media screen and (max-width: 1950px) {
         font-size: 13px;
 	}
-    @media screen and (max-width: 1650px) {
+    @media screen and (max-width: 1800px) {
         font-size: 12px;
 	}
-    @media screen and (max-width: 1425px) {
+    @media screen and (max-width: 1650px) {
         font-size: 11px;
 	}
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1500px) {
         font-size: 10px;
     }
-    @media screen and (max-width: 975px) {
+    @media screen and (max-width: 1100px) {
         font-size: 9px;
 	}
-    @media screen and (max-width: 750px) {
+    @media screen and (max-width: 1200px) {
         font-size: 8px;
+    }
+    @media screen and (max-width: 1050px) {
+        font-size: 7px;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 6px;
     }
 }
 
